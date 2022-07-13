@@ -1,6 +1,6 @@
 import "./product.css";
 
-const Product = ({img,link}) => {
+const Product = ({img,link, description, github}) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -9,10 +9,12 @@ const Product = ({img,link}) => {
         <div className="p-circle"></div>
       </div>
       <a href={link} target="_blank" rel="noreferrer">
-      {/* <a href="https://github.com/Rbenney15" target="_blank" rel="noreferrer"> */}
         <img src={img} alt="" className="p-img" />
-        {/* <img src="" alt="" className="p-img" /> */}
       </a>
+      <p className="p-text"> 
+      {description}
+      <a href={github}>{github}</a>
+      </p>
     </div>
   );
 };

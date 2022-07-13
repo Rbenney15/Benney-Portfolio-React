@@ -5,6 +5,8 @@
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
+    position: relative;
+    /* z-index: auto; */
   }
   
   .p-browser {
@@ -13,7 +15,7 @@
     display: flex;
     align-items: center;
     position: sticky;
-    z-index: 2;
+    z-index: 5;
   }
   
   .p-circle {
@@ -27,8 +29,16 @@
   .p-img {
     width: 100%;
     transition: all 10s ease;
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 1px;
   }
-  
+  .p-text{
+    position: absolute;
+    top: 20%;
+    z-index: 0;
+  }
   .p:hover .p-img {
     transform: translateY(-100%);
   }
