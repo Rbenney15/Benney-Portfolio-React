@@ -48,7 +48,7 @@ const Contact = () => {
              <a className="c-decor" href="https://www.linkedin.com/in/robert-benney"><button className="c-but">My LinkedIn Profile</button></a>
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Address} alt="" />
+              <img className="c-icon-add" src={Address} alt="" />
               Baltimore, MD
             </div>
           </div>
