@@ -2,7 +2,7 @@
 
 Deployed via GH-pages: http://Rbenney15.github.io/Benney-Portfolio-React
 
-
+![screenshot4readme](https://user-images.githubusercontent.com/98703735/178869294-027a57d3-e880-4602-b43f-60209b91455f.jpg)
 
 ## Description
 My portfolio created with React. Includes a about me section, contact form, and projects list. 
