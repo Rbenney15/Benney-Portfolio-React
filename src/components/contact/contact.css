@@ -116,3 +116,11 @@
       margin-top: 10px;
     }
   }
+
+  .c-decor {
+    text-decoration: none;
+  }
+
+  .c-but {
+    background-color: black;
+  }

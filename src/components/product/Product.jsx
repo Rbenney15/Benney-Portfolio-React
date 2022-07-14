@@ -1,6 +1,6 @@
 import "./product.css";
 
-const Product = ({img,link, description, github}) => {
+const Product = ({img,link, description, github,}) => {
   return (
     <div className="p">
       <div className="p-browser">

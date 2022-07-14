@@ -41,11 +41,11 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src={GitHub} alt="" className="c-icon" />
-              <a href="https://github.com/Rbenney15"> Rob GitHub Profile</a>
+              <a className="c-decor" href="https://github.com/Rbenney15"><button className="c-but">My GitHub Profile</button></a>
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Linkedin} alt="" />
-             <a href="https://www.linkedin.com/in/robert-benney">LinkedIn Profile</a>
+             <a className="c-decor" href="https://www.linkedin.com/in/robert-benney"><button className="c-but">My LinkedIn Profile</button></a>
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
