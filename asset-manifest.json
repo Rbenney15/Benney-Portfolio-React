@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Benney-Portfolio-React/static/css/main.f1078d2b.css",
-    "main.js": "/Benney-Portfolio-React/static/js/main.12401bd8.js",
+    "main.css": "/Benney-Portfolio-React/static/css/main.944577c4.css",
+    "main.js": "/Benney-Portfolio-React/static/js/main.bbdea6ef.js",
     "static/media/hiking.jpg": "/Benney-Portfolio-React/static/media/hiking.d3b762ef2e56b0898234.jpg",
     "static/media/cover-image.jpg": "/Benney-Portfolio-React/static/media/cover-image.9162d92d02eb24f77585.jpg",
     "static/media/uplift.jpg": "/Benney-Portfolio-React/static/media/uplift.ac8e9b1a9b174912acec.jpg",
@@ -16,11 +16,11 @@
     "static/media/github.png": "/Benney-Portfolio-React/static/media/github.644da2f0f94a110b42c9.png",
     "static/media/moon.png": "/Benney-Portfolio-React/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/Benney-Portfolio-React/index.html",
-    "main.f1078d2b.css.map": "/Benney-Portfolio-React/static/css/main.f1078d2b.css.map",
-    "main.12401bd8.js.map": "/Benney-Portfolio-React/static/js/main.12401bd8.js.map"
+    "main.944577c4.css.map": "/Benney-Portfolio-React/static/css/main.944577c4.css.map",
+    "main.bbdea6ef.js.map": "/Benney-Portfolio-React/static/js/main.bbdea6ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1078d2b.css",
-    "static/js/main.12401bd8.js"
+    "static/css/main.944577c4.css",
+    "static/js/main.bbdea6ef.js"
   ]
 }
