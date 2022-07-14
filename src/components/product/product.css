@@ -28,7 +28,7 @@
   
   .p-img {
     width: 100%;
-    transition: all 10s ease;
+    transition: all 5s ease;
     z-index: 3;
     position: absolute;
     top: 20%;
@@ -36,7 +36,7 @@
   }
   .p-text{
     position: absolute;
-    top: 20%;
+    top: 40%;
     z-index: 0;
   }
   .p:hover .p-img {

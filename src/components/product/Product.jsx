@@ -13,6 +13,7 @@ const Product = ({img,link, description, github,}) => {
       </a>
       <p className="p-text"> 
       {description}
+      <br/>
       <a href={github}>{github}</a>
       </p>
     </div>

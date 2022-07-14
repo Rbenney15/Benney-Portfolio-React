@@ -45,7 +45,7 @@ export const products = [
       id: 6,
       img: factgenerator,
       link: "https://samdakota.github.io/Random-Fact-Generator/",
-      description: "This application is a Random Fact Generator that allows users to select a fact category presented to them on page load. Once the user selects a fact category, they are presented with a random fact from that category. The user has the ability to save the facts they find most interesting. The user also has the ability to see all of their saved facts compiled in one list.",
+      description: "This application is a Random Fact Generator that allows users to select a fact category to be entertained with random facts from that category.",
       github: "https://github.com/samdakota/Random-Fact-Generator",
     },
   ];
