@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Benney-Portfolio-React/static/css/main.944577c4.css",
-    "main.js": "/Benney-Portfolio-React/static/js/main.bbdea6ef.js",
+    "main.js": "/Benney-Portfolio-React/static/js/main.67441c29.js",
     "static/media/hiking.jpg": "/Benney-Portfolio-React/static/media/hiking.d3b762ef2e56b0898234.jpg",
     "static/media/cover-image.jpg": "/Benney-Portfolio-React/static/media/cover-image.9162d92d02eb24f77585.jpg",
     "static/media/uplift.jpg": "/Benney-Portfolio-React/static/media/uplift.ac8e9b1a9b174912acec.jpg",
@@ -17,10 +17,10 @@
     "static/media/moon.png": "/Benney-Portfolio-React/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/Benney-Portfolio-React/index.html",
     "main.944577c4.css.map": "/Benney-Portfolio-React/static/css/main.944577c4.css.map",
-    "main.bbdea6ef.js.map": "/Benney-Portfolio-React/static/js/main.bbdea6ef.js.map"
+    "main.67441c29.js.map": "/Benney-Portfolio-React/static/js/main.67441c29.js.map"
   },
   "entrypoints": [
     "static/css/main.944577c4.css",
-    "static/js/main.bbdea6ef.js"
+    "static/js/main.67441c29.js"
   ]
 }
