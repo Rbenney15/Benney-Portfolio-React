@@ -16,9 +16,10 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
+            I am seeking positions in Full Stack Development, Frontend Development, and Backend Development.  
+            {/* I design and develop services for customers of all sizes,
             specializing in creating stylish, modern websites, web services and
-            online stores.
+            online stores. */}
           </p>
         </div>
         <svg
