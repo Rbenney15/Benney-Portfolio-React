@@ -10,6 +10,7 @@ const ProductList = () => {
         <p className="pl-desc">
         Here you can find a list of projects that I have created using a varierty of technologies.
         </p>
+        <p>*Click sliding image to view deployed application</p>
       </div>
       <div className="pl-list">
         {products.map((item) => (
