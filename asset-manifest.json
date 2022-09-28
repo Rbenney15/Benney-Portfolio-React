@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Benney-Portfolio-React/static/css/main.944577c4.css",
-    "main.js": "/Benney-Portfolio-React/static/js/main.5be8fb58.js",
+    "main.js": "/Benney-Portfolio-React/static/js/main.6ead5e9f.js",
     "static/media/hiking.jpg": "/Benney-Portfolio-React/static/media/hiking.d3b762ef2e56b0898234.jpg",
     "static/media/cover-image.jpg": "/Benney-Portfolio-React/static/media/cover-image.9162d92d02eb24f77585.jpg",
     "static/media/uplift.jpg": "/Benney-Portfolio-React/static/media/uplift.ac8e9b1a9b174912acec.jpg",
@@ -12,15 +12,16 @@
     "static/media/gathr.png": "/Benney-Portfolio-React/static/media/gathr.c535e1ccca46b5ee49ae.png",
     "static/media/address.png": "/Benney-Portfolio-React/static/media/address.a01cb8cc428702f30bec.png",
     "static/media/linkedin.png": "/Benney-Portfolio-React/static/media/linkedin.8d43609d1be0afc14dd7.png",
+    "static/media/email.png": "/Benney-Portfolio-React/static/media/email.a49e015815e3ac6d2bd3.png",
     "static/media/sun.png": "/Benney-Portfolio-React/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/github.png": "/Benney-Portfolio-React/static/media/github.644da2f0f94a110b42c9.png",
     "static/media/moon.png": "/Benney-Portfolio-React/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/Benney-Portfolio-React/index.html",
     "main.944577c4.css.map": "/Benney-Portfolio-React/static/css/main.944577c4.css.map",
-    "main.5be8fb58.js.map": "/Benney-Portfolio-React/static/js/main.5be8fb58.js.map"
+    "main.6ead5e9f.js.map": "/Benney-Portfolio-React/static/js/main.6ead5e9f.js.map"
   },
   "entrypoints": [
     "static/css/main.944577c4.css",
-    "static/js/main.5be8fb58.js"
+    "static/js/main.6ead5e9f.js"
   ]
 }
