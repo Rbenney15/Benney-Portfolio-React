@@ -20,6 +20,7 @@ const About = () => {
         <p className="a-sub">
         I'm a recent graduate of George Washington University's Full Stack Development Certificate program. During my time in the program I learned the introcacies of both the Frontend and Backend of Web Development.
         </p>
+        <p className="a-sub"> My Technical Skills include:</p>
         <p className="a-desc">
         Frontend: 
         HTML, CSS, JavaScript, Command line fundamentals, APIs: Server-side and Third Party, and Git fundamentals, React. 
