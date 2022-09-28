@@ -13,6 +13,7 @@ const Intro = () => {
               <div className="i-title-item">Full Stack Developer</div>
               <div className="i-title-item">Frontend Developer</div>
               <div className="i-title-item">Backend Developer</div>
+              <div className="i-title-item">App Developer</div>
             </div>
           </div>
           <p className="i-desc">

@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon-add" src={Address} alt="" />
-              Baltimore, MD
+              Washington, D.C.
             </div>
           </div>
         </div>
