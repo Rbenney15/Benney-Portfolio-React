@@ -2,6 +2,7 @@ import "./contact.css";
 import Address from "../../img/address.png";
 import GitHub from '../../img/github.png';
 import Linkedin from '../../img/linkedin.png';
+import Email from '../../img/email.png';
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
@@ -46,6 +47,10 @@ const Contact = () => {
             <div className="c-info-item">
               <img className="c-icon" src={Linkedin} alt="" />
              <a className="c-decor" href="https://www.linkedin.com/in/robert-benney"><button className="c-but">My LinkedIn Profile</button></a>
+            </div>
+            <div className="c-info-item">
+              <img className="c-icon" src={Email} alt="" />
+             <a className="c-decor" href="rob.benney@gmail.com"><button className="c-but">My Email</button></a>
             </div>
             <div className="c-info-item">
               <img className="c-icon-add" src={Address} alt="" />
