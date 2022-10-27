@@ -41,19 +41,19 @@ const Contact = () => {
           <h1 className="c-title">Let's discuss your project</h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src={GitHub} alt="" className="c-icon" />
+              <img src={GitHub} alt="GitHub Logo" className="c-icon" />
               <a className="c-decor" href="https://github.com/Rbenney15"><button className="c-but">My GitHub Profile</button></a>
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Linkedin} alt="" />
+              <img className="c-icon" src={Linkedin} alt="LinkedIn Logo" />
              <a className="c-decor" href="https://www.linkedin.com/in/robert-benney"><button className="c-but">My LinkedIn Profile</button></a>
             </div>
             <div className="c-info-item">
-              <img className="c-icon" src={Email} alt="" />
+              <img className="c-icon" src={Email} alt="Email Logo" />
              <a className="c-decor" href="rob.benney@gmail.com"><button className="c-but">My Email</button></a>
             </div>
             <div className="c-info-item">
-              <img className="c-icon-add" src={Address} alt="" />
+              <img className="c-icon-add" src={Address} alt="Map icon" />
               Washington, D.C.
             </div>
           </div>
