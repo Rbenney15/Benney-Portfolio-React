@@ -1,4 +1,4 @@
-import uplift from '../src/img/uplift.jpg';
+import uplift from '../src/img/uplift.png';
 import notetaker from '../src/img/notetaker.jpg';
 import codingquiz from '../src/img/codingquiz.png';
 import scheduler from '../src/img/scheduler.jpg';
