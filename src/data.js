@@ -3,7 +3,7 @@ import notetaker from '../src/img/notetaker.jpg';
 import codingquiz from '../src/img/codingquiz.png';
 import scheduler from '../src/img/scheduler.jpg';
 import weather from '../src/img/weather.jpg';
-import factgenerator from '../src/img/factgenerator.jpg';
+import techblog from '../src/img/techblog.png';
 
 export const products = [
   {
@@ -47,10 +47,10 @@ export const products = [
   },
   {
     id: 6,
-    img: factgenerator,
-    link: "https://samdakota.github.io/Random-Fact-Generator/",
+    img: techblog,
+    link: "https://techblogrbgwu.herokuapp.com/",
     description:
-      "Random Fact Generator that allows users to select a fact category to be entertained with random facts from that category.",
-    github: "https://github.com/samdakota/Random-Fact-Generator",
+      "This project is a CMS-style blog site. Giving developers the opportunity to publish their blog posts and comment on other developers posts. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.",
+    github: "https://github.com/Rbenney15/blog-tech",
   },
 ];
