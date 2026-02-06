@@ -21,8 +21,8 @@ const About = () => {
         <h2 className="a-title">About</h2>
 
         <p className="a-intro">
-          My work centers on organizing digital content in ways that improve
-          usability, reduce confusion, and support long-term growth.
+          I build and improve web experiences that make information easier to
+          find, use, and manage.
         </p>
 
         <p className="a-desc">
