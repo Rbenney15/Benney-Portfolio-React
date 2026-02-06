@@ -21,18 +21,16 @@ const About = () => {
         <h2 className="a-title">About</h2>
 
         <p className="a-intro">
-          I am a digital experience professional focused on building structured,
-          user-centered web environments that balance content strategy, user
-          experience, and technical execution.
+          My work centers on organizing digital content in ways that improve
+          usability, reduce confusion, and support long-term growth.
         </p>
 
         <p className="a-desc">
-          In my current role, I lead the architecture and continuous improvement
-          of a university-wide Knowledge Base, translating complex
-          organizational processes into intuitive, accessible digital
-          experiences. I partner closely with stakeholders and technical teams
-          to design systems that scale — emphasizing clear navigation, reusable
-          patterns, and long-term content governance.
+          I currently oversee a university Knowledge Base, where I focus on
+          making complex information easier to find and understand. Much of my
+          work centers on improving structure, refining navigation, and
+          partnering with stakeholders to ensure the platform remains practical,
+          scalable, and user-friendly.
         </p>
 
         <div className="a-section">
