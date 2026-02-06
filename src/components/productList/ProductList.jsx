@@ -3,21 +3,49 @@ import Product from "../product/Product";
 import { products } from "../../data";
 
 const ProductList = () => {
+  const featured = products.find((p) => p.featured);
+  const others = products.filter((p) => !p.featured);
+
   return (
-    <div className="pl">
+    <section className="pl" id="work" aria-label="Selected work">
       <div className="pl-texts">
-        <h1 className="pl-title">My Work</h1>
+        <h2 className="pl-title">Selected Work</h2>
         <p className="pl-desc">
-        Here you can find a list of projects that I have created using a varierty of technologies.
+          A curated selection of work highlighting platform structure,
+          UX-focused layout, and implementation.
         </p>
-        <p>*Click top sliding image to view deployed application</p>
       </div>
-      <div className="pl-list">
-        {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} description={item.description} github={item.github} />
-        ))}
+
+      {featured && (
+        <div className="pl-featured">
+          <h3 className="pl-subtitle">Featured</h3>
+          <Product
+            title={featured.title}
+            img={featured.img}
+            link={featured.link}
+            description={featured.description}
+            github={featured.github}
+            featured
+          />
+        </div>
+      )}
+
+      <div className="pl-grid">
+        <h3 className="pl-subtitle">Additional Projects</h3>
+        <div className="pl-list">
+          {others.map((item) => (
+            <Product
+              key={item.id}
+              title={item.title}
+              img={item.img}
+              link={item.link}
+              description={item.description}
+              github={item.github}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
