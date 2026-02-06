@@ -24,16 +24,15 @@ const Intro = () => {
           <div className="i-cta">
             <a
               className="i-cta-primary"
-              href="REPLACE_WITH_YOUR_RESUME_LINK"
-              target="_blank"
-              rel="noreferrer"
+              href="/Benney_Resume_2026.pdf"
+              download
             >
-              View Resume
+              Download Resume
             </a>
 
             <a
               className="i-cta-secondary"
-              href="REPLACE_WITH_YOUR_LINKEDIN_LINK"
+              href="https://www.linkedin.com/in/robert-benney/"
               target="_blank"
               rel="noreferrer"
             >
