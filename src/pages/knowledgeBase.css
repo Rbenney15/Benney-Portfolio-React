@@ -1,0 +1,56 @@
+.kb {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.kb-wrapper {
+    max-width: 800px;
+}
+
+.kb-title {
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.kb-overview {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+.kb-section {
+    margin-bottom: 32px;
+}
+
+.kb-section h2 {
+    margin-bottom: 10px;
+}
+
+.kb-section ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.kb-link {
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #111;
+}
+.kb-back {
+    display: inline-block;
+    margin-bottom: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    border-bottom: 2px solid transparent;
+}
+
+.kb-back:hover {
+    border-bottom: 2px solid #111;
+}
+
+.kb-back:focus {
+    outline: 2px solid #111;
+    outline-offset: 3px;
+}

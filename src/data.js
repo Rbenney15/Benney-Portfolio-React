@@ -13,7 +13,7 @@ export const products = [
     featured: true,
     title: "Ask Capitol Knowledge Base",
     img: knowledgebase,
-    link: "https://ask.captechu.edu/",
+    link: "/knowledge-base",
     description:
       "University knowledge base I oversee end-to-end—structure, navigation, content standards, and accessibility checks to keep resources easy to find and easy to maintain.",
     github: null,
