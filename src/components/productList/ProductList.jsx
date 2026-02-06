@@ -11,8 +11,8 @@ const ProductList = () => {
       <div className="pl-texts">
         <h2 className="pl-title">Selected Work</h2>
         <p className="pl-desc">
-          A curated selection of work highlighting platform structure,
-          UX-focused layout, and implementation.
+          A curated selection of work showcasing platform structure, UX-focused
+          layout, and implementation.
         </p>
       </div>
 
