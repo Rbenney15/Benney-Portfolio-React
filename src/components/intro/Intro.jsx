@@ -3,88 +3,105 @@ import Me from "../../img/cover-image.jpg";
 
 const Intro = () => {
   return (
-    <div className="i">
+    <header className="i" aria-label="Introduction">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
+          <p className="i-intro">Hello, my name is</p>
+
           <h1 className="i-name">Rob Benney</h1>
-          <div className="i-title">
-            <div className="i-title-wrapper">
-              <div className="i-title-item">Full Stack Developer</div>
-              <div className="i-title-item">Frontend Developer</div>
-              <div className="i-title-item">Backend Developer</div>
-              <div className="i-title-item">App Developer</div>
-            </div>
-          </div>
-          <p className="i-desc">
-            {/* I am seeking positions in Full Stack Development, Frontend Development, and Backend Development.   */}
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+
+          <p className="i-role">
+            WordPress Content Designer <span className="i-role-sep">|</span>{" "}
+            Information Architecture &amp; UX
           </p>
+
+          <p className="i-desc">
+            I build structured, scalable WordPress experiences—translating
+            complex content into intuitive, accessible page layouts and
+            navigation systems.
+          </p>
+
+          <div className="i-cta">
+            <a
+              className="i-cta-primary"
+              href="REPLACE_WITH_YOUR_RESUME_LINK"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Resume
+            </a>
+
+            <a
+              className="i-cta-secondary"
+              href="REPLACE_WITH_YOUR_LINKEDIN_LINK"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+          </div>
         </div>
+
+        {/* Decorative scroll indicator */}
         <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="black"
+          stroke="currentColor"
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          focusable="false"
         >
-          <g id="scroll">
-            <path
-              id="Vector"
-              d="M40.5 15L34.5 9L28.5 15"
-              stroke-width="3"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              id="Vector_2"
-              d="M28.5 24L34.5 30L40.5 24"
-              stroke-width="3"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <g id="Group">
-              <path
-                id="Vector_3"
-                d="M9 37.5H60"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </g>
-            <path
-              id="Vector_4"
-              d="M34.5 27V9"
-              stroke-width="2.9895"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <g id="Group_2">
-              <path
-                id="Vector_5"
-                d="M9 27C9 12.918 20.418 1.5 34.5 1.5C48.5859 1.5 60 12.918 60 27C60 29.8906 60 45.1094 60 48C60 62.082 48.5859 73.5 34.5 73.5C20.418 73.5 9 62.082 9 48C9 45.1094 9 29.8906 9 27Z"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </g>
-          </g>
+          <path
+            d="M40.5 15L34.5 9L28.5 15"
+            strokeWidth="3"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M28.5 24L34.5 30L40.5 24"
+            strokeWidth="3"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M9 37.5H60"
+            strokeWidth="3"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M34.5 27V9"
+            strokeWidth="3"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+          <path
+            d="M9 27C9 12.918 20.418 1.5 34.5 1.5C48.5859 1.5 60 12.918 60 27V48C60 62.082 48.5859 73.5 34.5 73.5C20.418 73.5 9 62.082 9 48V27Z"
+            strokeWidth="3"
+            strokeMiterlimit="10"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
         </svg>
       </div>
-      <div className="i-right">
-        <div className="i-bg"></div>
-        <img src={Me} alt="" className="i-img" />
+
+      <div className="i-right" aria-hidden="true">
+        <div className="i-bg" />
+        <img
+          src={Me}
+          alt="Headshot of Rob Benney"
+          className="i-img"
+          loading="lazy"
+        />
       </div>
-    </div>
+    </header>
   );
 };
 
