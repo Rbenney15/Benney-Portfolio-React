@@ -10,12 +10,12 @@ export const products = [
   {
     id: "kb",
     featured: true,
-    title: "University Knowledge Base",
+    title: "Ask Capitol Knowledge Base",
     img: knowledgebase,
-    link: "https://ask.captechu.edu/", 
+    link: "https://ask.captechu.edu/",
     description:
-      "University-wide Knowledge Base focused on clear structure, navigation, and long-term maintainability.",
-    github: null, 
+      "University knowledge base I oversee end-to-end: page structure, navigation, content standards, and accessibility checks to keep resources easy to find and maintain.",
+    github: null,
   },
   {
     id: "uplift",
@@ -46,28 +46,28 @@ export const products = [
   },
 
   // OPTIONAL: keep these only if you want more than 3 additional projects
-  // {
-  //   id: "codingquiz",
-  //   title: "Coding Quiz",
-  //   img: codingquiz,
-  //   link: "https://rbenney15.github.io/coding-quiz/",
-  //   description: "Timed quiz to test JavaScript fundamentals.",
-  //   github: "https://github.com/Rbenney15/coding-quiz",
-  // },
-  // {
-  //   id: "scheduler",
-  //   title: "Workday Scheduler",
-  //   img: scheduler,
-  //   link: "https://rbenney15.github.io/workday-scheduler/",
-  //   description: "Editable weekday scheduler for tracking daily tasks.",
-  //   github: "https://github.com/Rbenney15/workday-scheduler",
-  // },
-  // {
-  //   id: "weather",
-  //   title: "Weather Dashboard",
-  //   img: weather,
-  //   link: "https://rbenney15.github.io/weather-dashboard/",
-  //   description: "City search weather dashboard with 5-day forecast.",
-  //   github: "https://github.com/Rbenney15/weather-dashboard",
-  // },
+  {
+    id: "codingquiz",
+    title: "Coding Quiz",
+    img: codingquiz,
+    link: "https://rbenney15.github.io/coding-quiz/",
+    description: "Timed quiz to test JavaScript fundamentals.",
+    github: "https://github.com/Rbenney15/coding-quiz",
+  },
+  {
+    id: "scheduler",
+    title: "Workday Scheduler",
+    img: scheduler,
+    link: "https://rbenney15.github.io/workday-scheduler/",
+    description: "Editable weekday scheduler for tracking daily tasks.",
+    github: "https://github.com/Rbenney15/workday-scheduler",
+  },
+  {
+    id: "weather",
+    title: "Weather Dashboard",
+    img: weather,
+    link: "https://rbenney15.github.io/weather-dashboard/",
+    description: "City search weather dashboard with 5-day forecast.",
+    github: "https://github.com/Rbenney15/weather-dashboard",
+  },
 ];
