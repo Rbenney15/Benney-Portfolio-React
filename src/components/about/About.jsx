@@ -1,66 +1,71 @@
 import "./about.css";
-import hiking from '../../img/hiking.jpg'
-import Resume from '../../img/resume.png';
+import hiking from "../../img/hiking.jpg";
 
 const About = () => {
   return (
-    <div className="a">
-      <div className="a-left">
+    <section className="a" id="about" aria-label="About Rob Benney">
+      <div className="a-left" aria-hidden="true">
         <div className="a-card bg"></div>
+
         <div className="a-card">
           <img
             src={hiking}
-            alt=""
+            alt="Rob Benney hiking outdoors"
             className="a-img"
+            loading="lazy"
           />
         </div>
       </div>
+
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-        I'm a recent graduate of George Washington University's Full Stack Development Certificate program. During my time in the program I learned the introcacies of both the Frontend and Backend of Web Development.
+        <h2 className="a-title">About</h2>
+
+        <p className="a-intro">
+          I am a digital experience professional focused on building structured,
+          user-centered web environments that balance content strategy, user
+          experience, and technical execution.
         </p>
-        <p className="a-sub"> My Technical Skills include:</p>
+
         <p className="a-desc">
-        Frontend: 
-        HTML, CSS, JavaScript, Command line fundamentals, APIs: Server-side and Third Party, and Git fundamentals, React. 
+          In my current role, I lead the architecture and continuous improvement
+          of a university-wide Knowledge Base, translating complex
+          organizational processes into intuitive, accessible digital
+          experiences. I partner closely with stakeholders and technical teams
+          to design systems that scale — emphasizing clear navigation, reusable
+          patterns, and long-term content governance.
         </p>
-        <br></br>
-        <p className="a-desc">
-        Backend:
-        Node.js, OOP, Express.js, SQL (MySQL and Sequelize), ORM, MVCs, NoSQL(MongoDB and Mongoose) 
-        I am excited to take the knowledge and skills I learned in this program and help an organization continue to grow and achieve their goals. 
-        </p>
-        <br></br>
-        <p>
-        Apart from coding, some other activities that I love to do!
-        </p>
-          <ul>
-            <li className="a-desc">
-            Hiking
+
+        <div className="a-section">
+          <h3 className="a-section-title">Core Strengths</h3>
+
+          <ul className="a-list">
+            <li>
+              Information architecture, taxonomy, and scalable content
+              structures
             </li>
-            <li className="a-desc">
-            Playing sports
+            <li>UX-focused layout, visual hierarchy, and page composition</li>
+            <li>Accessibility-minded design and quality practices</li>
+            <li>Responsive front-end development using modern CSS patterns</li>
+            <li>
+              Cross-functional collaboration with designers, developers, and
+              stakeholders
             </li>
-            <li className="a-desc">
-            Travelling
+            <li>
+              Content migration, cleanup, and governance for sustainable growth
             </li>
           </ul>
-          <div className="a-award">
-          <img src={Resume} alt="" className="a-award-img" />
-          <div className="a-award-texts">
-            <a 
-            href="https://docs.google.com/document/d/1M9TjR2JbGdRUqUTpjlhC-K7JPO5TGuEiL9DeSa8WXk4/edit?usp=sharing" 
-            target="_blank" 
-            rel="noreferrer"
-            className="text-decoration-none">
-            <h4 className="a-award-title">Click to view my resume</h4>
-          </a>
-            {/* <p>Resume.pdf</p> */}
-          </div>
+        </div>
+
+        <div className="a-section">
+          <h3 className="a-section-title">Technical Toolkit</h3>
+
+          <p className="a-desc">
+            WordPress, HTML, CSS, JavaScript, React, Node.js, Express, SQL,
+            NoSQL, Git/GitHub, APIs, and analytics tooling.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
