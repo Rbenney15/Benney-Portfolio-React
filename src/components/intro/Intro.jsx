@@ -103,7 +103,6 @@ const Intro = () => {
       </div>
 
       <div className="i-right" aria-hidden="true">
-        <div className="i-bg" />
         <img src={Me} alt="Portrait of Rob Benney" className="i-img" />
       </div>
     </section>
