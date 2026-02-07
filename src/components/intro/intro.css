@@ -1,8 +1,7 @@
 .i {
   display: flex;
   height: 100vh;
-  gap: 60px;
-  /* Adds breathing room between text + portrait */
+  gap: 40px;
   align-items: center;
 }
 
