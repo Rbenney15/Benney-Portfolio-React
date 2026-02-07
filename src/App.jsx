@@ -27,9 +27,11 @@ const App = () => {
 
   return (
     <div
+      className="app"
+      data-theme={darkMode ? "dark" : "light"}
       style={{
-        backgroundColor: darkMode ? "#222" : "#fff",
-        color: darkMode ? "#fff" : "#111",
+        backgroundColor: "var(--bg)",
+        color: "var(--text)",
         minHeight: "100vh",
       }}
     >
