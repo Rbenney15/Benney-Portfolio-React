@@ -4,8 +4,8 @@ Digital Experience • Content Systems • Information Architecture
 
 ---
 
-## 🌐 Live Portfolio
-👉 https://rbenney15.github.io/Benney-Portfolio-React/
+## Live Portfolio
+https://rbenney15.github.io/Benney-Portfolio-React/
 
 [![Portfolio Preview](assets/portfolio-preview.png)](https://rbenney15.github.io/Benney-Portfolio-React/)
 
@@ -19,7 +19,7 @@ My focus is helping users find reliable information quickly while creating platf
 
 ---
 
-## ⭐ Featured Project — Ask Capitol Knowledge Base
+## Featured Project — Ask Capitol Knowledge Base
 
 A public, university-wide knowledge platform supporting students, faculty, and staff.
 
@@ -31,10 +31,10 @@ A public, university-wide knowledge platform supporting students, faculty, and s
 - Translated complex institutional processes into clear documentation  
 - Supported accessibility-minded practices  
 
-👉 **View Case Study:**  
+**View Case Study:**  
 https://rbenney15.github.io/Benney-Portfolio-React/knowledge-base  
 
-👉 **Visit Live Site:**  
+**Visit Live Site:**  
 https://ask.captechu.edu/
 
 ---
