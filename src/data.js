@@ -37,7 +37,7 @@ export const products = [
   {
     id: "weather-dashboard",
     title: "Weather Dashboard",
-    img: weather,
+    img: weather-dashboard,
     link: "https://rbenney15.github.io/weather-dashboard/",
     description: "Weather dashboard with city search and 5-day forecast.",
     github: "https://github.com/Rbenney15/weather-dashboard",
