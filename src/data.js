@@ -1,7 +1,7 @@
 import knowledgebase from "../src/img/knowledgebase.png";
 import codingquiz from "../src/img/codingquiz.png";
 import scheduler from "../src/img/scheduler.jpg";
-import weather from "../src/img/weather.jpg";
+import weather from "../src/img/weather.png";
 
 // Curated portfolio list:
 // - Featured: real-world production platform 
@@ -37,7 +37,7 @@ export const products = [
   {
     id: "weather-dashboard",
     title: "Weather Dashboard",
-    img: weather-dashboard,
+    img: weather,
     link: "https://rbenney15.github.io/weather-dashboard/",
     description: "Weather dashboard with city search and 5-day forecast.",
     github: "https://github.com/Rbenney15/weather-dashboard",
