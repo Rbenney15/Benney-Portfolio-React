@@ -7,7 +7,7 @@ Digital Experience • Content Systems • Information Architecture
 ## Live Portfolio
 https://rbenney15.github.io/Benney-Portfolio-React/
 
-![portfolio-preview](https://github.com/user-attachments/assets/196791f4-34cb-4262-a718-5b8fd6ff12d6)(https://rbenney15.github.io/Benney-Portfolio-React/)
+![portfolio-preview](./src/img/portfolio-preview.png)
 
 ---
 
