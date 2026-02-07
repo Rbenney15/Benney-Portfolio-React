@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Benney-Portfolio-React/static/css/main.7856929f.css",
-    "main.js": "/Benney-Portfolio-React/static/js/main.7ffb5631.js",
+    "main.css": "/Benney-Portfolio-React/static/css/main.ce3d034f.css",
+    "main.js": "/Benney-Portfolio-React/static/js/main.291555f7.js",
+    "static/media/cover-image.png": "/Benney-Portfolio-React/static/media/cover-image.b597de32272cd47eebf8.png",
     "static/media/hiking.jpg": "/Benney-Portfolio-React/static/media/hiking.d3b762ef2e56b0898234.jpg",
-    "static/media/cover-image.jpg": "/Benney-Portfolio-React/static/media/cover-image.9162d92d02eb24f77585.jpg",
     "static/media/knowledgebase.png": "/Benney-Portfolio-React/static/media/knowledgebase.22e9908cdc2e4e049760.png",
     "static/media/weather.jpg": "/Benney-Portfolio-React/static/media/weather.33cbb4bf8c2afe67ec21.jpg",
     "static/media/scheduler.jpg": "/Benney-Portfolio-React/static/media/scheduler.f0e5627514a75ba0bf6f.jpg",
@@ -11,11 +11,11 @@
     "static/media/sun.png": "/Benney-Portfolio-React/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/moon.png": "/Benney-Portfolio-React/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/Benney-Portfolio-React/index.html",
-    "main.7856929f.css.map": "/Benney-Portfolio-React/static/css/main.7856929f.css.map",
-    "main.7ffb5631.js.map": "/Benney-Portfolio-React/static/js/main.7ffb5631.js.map"
+    "main.ce3d034f.css.map": "/Benney-Portfolio-React/static/css/main.ce3d034f.css.map",
+    "main.291555f7.js.map": "/Benney-Portfolio-React/static/js/main.291555f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7856929f.css",
-    "static/js/main.7ffb5631.js"
+    "static/css/main.ce3d034f.css",
+    "static/js/main.291555f7.js"
   ]
 }
