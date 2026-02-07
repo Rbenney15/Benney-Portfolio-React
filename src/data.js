@@ -1,6 +1,6 @@
 import knowledgebase from "../src/img/knowledgebase.png";
 import codingquiz from "../src/img/codingquiz.png";
-import scheduler from "../src/img/scheduler.jpg";
+import scheduler from "../src/img/scheduler.png";
 import weather from "../src/img/weather.png";
 
 // Curated portfolio list:
