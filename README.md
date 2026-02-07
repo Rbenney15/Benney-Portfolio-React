@@ -1,23 +1,71 @@
-# React Portfolio
+# Rob Benney — Portfolio
 
-Deployed via GH-pages: http://Rbenney15.github.io/Benney-Portfolio-React
+Digital Experience • Content Systems • Information Architecture  
 
-![portfolio-preview](https://github.com/user-attachments/assets/9a0aa3df-08c8-4d48-8546-a41d010819f8)
-()
+---
 
-## Description
-My portfolio created with React. Includes an about me section, contact form, and projects list. 
-* Each project image is clickable to take you to the deployed URL. 
-* Hover over each project image to scroll the image up and reveal the description of the project and the corresponding github repo link.
-* Clickable Resume available
-* All messages submitted through the contact form go to my personal email.
+## 🌐 Live Portfolio
+👉 https://rbenney15.github.io/Benney-Portfolio-React/
 
-## Built with:
-* React
-* BootStrap
-* JSX
-* Context API
-* Emailjs
+[![Portfolio Preview](assets/portfolio-preview.png)](https://rbenney15.github.io/Benney-Portfolio-React/)
 
-# Questions
-Fill out the form in the contact section. I look forward to hearing from you!
+---
+
+## Overview
+
+This portfolio highlights my work designing and improving structured web experiences with an emphasis on usability, content organization, and scalable digital systems.
+
+My focus is helping users find reliable information quickly while creating platforms that are easier for teams to maintain and evolve.
+
+---
+
+## ⭐ Featured Project — Ask Capitol Knowledge Base
+
+A public, university-wide knowledge platform supporting students, faculty, and staff.
+
+### Key Contributions
+
+- Designed site structure and navigation to improve findability  
+- Established content standards across departments  
+- Built reusable templates to streamline publishing  
+- Translated complex institutional processes into clear documentation  
+- Supported accessibility-minded practices  
+
+👉 **View Case Study:**  
+https://rbenney15.github.io/Benney-Portfolio-React/knowledge-base  
+
+👉 **Visit Live Site:**  
+https://ask.captechu.edu/
+
+---
+
+## What This Portfolio Demonstrates
+
+- Structured thinking in digital environments  
+- Strong attention to usability and clarity  
+- Scalable content organization  
+- Cross-functional collaboration  
+- Continuous platform improvement  
+
+---
+
+## Tech Stack
+
+- React  
+- JavaScript  
+- HTML / CSS  
+- Context API  
+- Responsive Design  
+- Information Architecture  
+- Git / GitHub  
+
+---
+
+## Contact
+
+**LinkedIn:** https://www.linkedin.com/in/robert-benney/
+**GitHub:** https://github.com/Rbenney15  
+
+---
+
+Thank you for taking the time to review my work.
