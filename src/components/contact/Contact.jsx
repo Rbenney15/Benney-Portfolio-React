@@ -10,25 +10,25 @@ const Contact = () => {
           Currently open to new opportunities and meaningful conversations.
         </p>
 
-        <div className="c-links">
-          <a href="mailto:rob.benney@gmail.com" className="c-link">
+        <div className="c-links" aria-label="Contact links">
+          <a className="c-link" href="mailto:YOUR_EMAIL_HERE">
             Email
           </a>
 
           <a
-            href="https://www.linkedin.com/in/robert-benney/"
+            className="c-link"
+            href="https://www.linkedin.com/in/YOUR_LINKEDIN/"
             target="_blank"
             rel="noopener noreferrer"
-            className="c-link"
           >
             LinkedIn
           </a>
 
           <a
-            href="https://github.com/Rbenney15"
+            className="c-link"
+            href="https://github.com/YOUR_GITHUB"
             target="_blank"
             rel="noopener noreferrer"
-            className="c-link"
           >
             GitHub
           </a>
