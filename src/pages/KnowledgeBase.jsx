@@ -1,42 +1,49 @@
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./knowledgeBase.css";
 
 const KnowledgeBase = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }, []);
+
   return (
-    <section className="kb" aria-label="Ask Capitol Knowledge Base case study">
+    <section className="kb">
       <div className="kb-wrapper">
-        <a className="kb-back" href="/Benney-Portfolio-React/">
-          ← Back to portfolio
-        </a>
+        <Link to="/" className="kb-back">
+          ← Back to Portfolio
+        </Link>
 
         <h1 className="kb-title">Ask Capitol Knowledge Base</h1>
 
         <p className="kb-overview">
-          I oversee Ask Capitol, a public university Knowledge Base that helps
-          students, faculty, and staff find clear answers quickly. My focus is
-          keeping the site easy to navigate and keeping content consistent so it
-          stays useful as it grows.
+          I lead the structure and ongoing development of a university-wide
+          Knowledge Base designed to help students, faculty, and staff quickly
+          find accurate information. My focus is on improving usability,
+          strengthening content organization, and creating standards that allow
+          the platform to scale effectively as the university grows.
         </p>
 
         <div className="kb-section">
-          <h2>What I owned</h2>
+          <h2>My Role</h2>
+
           <ul>
             <li>
-              Site structure and navigation updates to improve findability
+              Designed the site architecture and navigation to improve
+              findability
             </li>
             <li>
-              Content standards so articles stay consistent across departments
+              Established content standards to ensure consistency across
+              departments
+            </li>
+            <li>Built reusable templates to streamline article creation</li>
+            <li>
+              Partnered with stakeholders to translate complex processes into
+              clear documentation
             </li>
             <li>
-              Reusable templates that make it faster to publish and maintain
-              content
-            </li>
-            <li>
-              Working with stakeholders to turn processes into plain-language
-              guidance
-            </li>
-            <li>
-              Accessibility checks and cleanup (headings, link text,
-              readability, etc.)
+              Implemented accessibility-minded practices to support a wide range
+              of users
             </li>
           </ul>
         </div>
@@ -45,38 +52,42 @@ const KnowledgeBase = () => {
           <h2>Impact</h2>
           <ul>
             <li>
-              A centralized support resource for the whole university community
+              Created a centralized resource supporting the entire university
+              community
             </li>
             <li>
-              Less back-and-forth by organizing content into predictable
-              sections
+              Reduced confusion by organizing information into predictable
+              structures
             </li>
+            <li>Enabled departments to maintain content more efficiently</li>
             <li>
-              Easier maintenance for departments through standards and templates
+              Improved the overall user experience through clearer navigation
             </li>
-            <li>Improved UX through clearer navigation and page structure</li>
           </ul>
         </div>
 
         <div className="kb-section">
-          <h2>How I work</h2>
+          <h2>How I Approach This Work</h2>
+
           <p>
-            I collaborate with campus partners and technical teams, then
-            iterate: review what’s working, fix what’s confusing, and keep
-            improving the structure so it stays simple for users and manageable
-            for the people maintaining it.
+            This project requires close collaboration with both technical teams
+            and campus partners. I continuously evaluate what is working,
+            identify opportunities for improvement, and refine the platform so
+            it remains practical, scalable, and easy to manage as content
+            expands.
           </p>
         </div>
 
         <div className="kb-section">
-          <h2>Live site</h2>
+          <h2>Explore the Live Platform</h2>
+
           <a
             href="https://ask.captechu.edu/"
             target="_blank"
             rel="noopener noreferrer"
             className="kb-link"
           >
-            Visit Ask Capitol →
+            Visit Knowledge Base →
           </a>
         </div>
       </div>
